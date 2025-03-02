@@ -5,7 +5,7 @@ defmodule ClaperWeb.EventLive.PostComponent do
     ~H"""
     <div id={@id}>
       <%= if @post.attendee_identifier == @attendee_identifier || (not is_nil(@current_user) && @post.user_id == @current_user.id) do %>
-        <div class="px-4 pt-3 pb-8 rounded-b-lg rounded-tl-lg bg-gray-700 text-white relative z-0 break-word">
+        <div style="background-color: #fff3d3;" class="px-4 pt-3 pb-8 rounded-b-lg rounded-tl-lg text-white relative z-0 break-word">
           <button
             phx-click={
               JS.toggle(
