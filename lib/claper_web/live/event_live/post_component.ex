@@ -100,7 +100,7 @@ defmodule ClaperWeb.EventLive.PostComponent do
           </div>
         </div>
       <% else %>
-        <div class="px-4 pt-3 pb-8 rounded-b-lg rounded-tr-lg bg-white text-black relative z-0 break-all">
+        <div style="background-color: #fff3d3;" class="px-4 pt-3 pb-8 rounded-b-lg rounded-tr-lg bg-white text-black relative z-0 break-all">
           <%= if @post.name || leader?(@post, @event, @leaders) do %>
             <div class="inline-flex items-center">
               <%= if @post.name do %>

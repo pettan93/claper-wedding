@@ -53,7 +53,7 @@ defmodule ClaperWeb.Plugs.Locale do
     `:gettext` configuration is set in `config/config.exs`:
 
         config :claper, ClaperWeb.Gettext,
-          default_locale: "en",
+          default_locale: "cs",
           default_domain: "claper",
           available_locales: ~w(en fr)
 

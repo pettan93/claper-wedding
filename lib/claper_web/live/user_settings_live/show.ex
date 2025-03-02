@@ -216,7 +216,7 @@ defmodule ClaperWeb.UserSettingsLive.Show do
   end
 
   defp set_locale(user) when is_nil(user.locale) do
-    %{"locale" => "en"}
+    %{"locale" => "cs"}
   end
 
   defp set_locale(user) do

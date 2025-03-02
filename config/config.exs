@@ -17,8 +17,8 @@ config :claper, ClaperWeb.Endpoint,
   live_view: [signing_salt: "DN0vwriJgVkHG0kn3hF5JKho/DE66onv"]
 
 config :claper, ClaperWeb.Gettext,
-  default_locale: "en",
-  locales: ~w(fr en de es nl)
+  default_locale: "cs",
+  locales: ~w(fr en cs de es nl)
 
 config :claper, Oban,
   engine: Oban.Engines.Basic,

@@ -1544,7 +1544,7 @@ msgstr "Zkuste se znovu přihlásit"
 #: lib/claper_web/live/event_live/event_card_component.ex:201
 #, elixir-autogen, elixir-format
 msgid "End"
-msgstr "Beenden"  # If you'd prefer to keep it consistent with "Ukončit" used above, feel free to adjust.
+msgstr "Ukončit"
 
 #: lib/claper_web/live/event_live/event_card_component.ex:212
 #: lib/claper_web/live/event_live/event_card_component.ex:292
@@ -1566,83 +1566,83 @@ msgstr "Ano"
 #: lib/claper_web/templates/user_notifier/confirm.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "CONFIRM ACCOUNT"
-msgstr "KONTO BESTÄTIGEN"  # Adjust if desired, e.g. "POTVRDIT ÚČET"
+msgstr "POTVRDIT ÚČET"
 
 #: lib/claper_web/templates/user_notifier/confirm.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Confirm account"
-msgstr "Konto bestätigen"  # Adjust if desired, e.g. "Potvrdit účet"
+msgstr "Potvrdit účet"
 
 #: lib/claper_web/notifiers/user_notifier.ex:45
 #, elixir-autogen, elixir-format
 msgid "Confirmation instructions"
-msgstr "Bestätigungsanweisungen"  # Adjust if desired, e.g. "Pokyny k potvrzení"
+msgstr "Pokyny k potvrzení"
 
 #: lib/claper_web/templates/user_notifier/reset.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "RESET PASSWORD"
-msgstr "PASSWORT ZURÜCKSETZEN"  # Adjust if desired: "OBNOVIT HESLO"
+msgstr "OBNOVIT HESLO"
 
 #: lib/claper_web/templates/user_notifier/reset.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Reset password"
-msgstr "Passwort zurücksetzen"  # Adjust if desired, e.g. "Obnovit heslo"
+msgstr "Obnovit heslo"
 
 #: lib/claper_web/notifiers/user_notifier.ex:56
 #, elixir-autogen, elixir-format
 msgid "Reset password instructions"
-msgstr "Anweisungen zum Zurücksetzen des Passworts"  # Could be "Pokyny k obnovení hesla"
+msgstr "Pokyny k obnovení hesla"
 
 #: lib/claper_web/templates/user_notifier/confirm.html.heex:22
 #, elixir-autogen, elixir-format
 msgid "You can confirm your account by visiting the URL below"
-msgstr "Sie können Ihr Konto bestätigen, indem Sie die folgende URL besuchen"  # Adjust if desired
+msgstr "Můžete potvrdit svůj účet návštěvou níže uvedené adresy"
 
 #: lib/claper_web/templates/user_notifier/reset.html.heex:22
 #, elixir-autogen, elixir-format
 msgid "You can reset your password by visiting the URL below"
-msgstr "Sie können Ihr Passwort zurücksetzen, indem Sie die folgende URL besuchen"  # Adjust if desired
+msgstr "Můžete obnovit své heslo návštěvou níže uvedené adresy"
 
 #: lib/claper_web/templates/user_registration/confirm.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "back to the home page"
-msgstr "zurück zur Startseite"  # Adjust if desired, e.g. "zpět na úvodní stránku"
+msgstr "zpět na úvodní stránku"
 
 #: lib/claper_web/live/quiz_live/quiz_component.html.heex:46
 #, elixir-autogen, elixir-format
 msgid "Add Question"
-msgstr "Frage hinzufügen"  # Adjust if desired, e.g. "Přidat otázku"
+msgstr "Přidat otázku"
 
 #: lib/claper_web/live/event_live/manage.html.heex:294
 #, elixir-autogen, elixir-format
 msgid "Add a quiz to test knowledge."
-msgstr "Fügen Sie ein Quiz hinzu, um Wissen zu testen."  # Adjust if desired
+msgstr "Přidejte kvíz pro ověření znalostí."
 
 #: lib/claper_web/live/quiz_live/quiz_component.html.heex:152
 #, elixir-autogen, elixir-format
 msgid "Add answer"
-msgstr "Antwort hinzufügen"  # Could be "Přidat odpověď"
+msgstr "Přidat odpověď"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:482
 #, elixir-autogen, elixir-format
 msgid "Allow anonymous messages"
-msgstr "Anonyme Nachrichten erlauben"  # Could be "Povolit anonymní zprávy"
+msgstr "Povolit anonymní zprávy"
 
 #: lib/claper_web/live/quiz_live/quiz_component.html.heex:84
 #, elixir-autogen, elixir-format
 msgid "Answer %{index}"
-msgstr "Antwort %{index}"  # Could be "Odpověď %{index}"
+msgstr "Odpověď %{index}"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:390
 #, elixir-autogen, elixir-format
 msgid "Attendees"
-msgstr "Teilnehmer"  # Could be "Účastníci"
+msgstr "Účastníci"
 
 #: lib/claper_web/live/event_live/manageable_quiz_component.ex:29
 #: lib/claper_web/live/stat_live/index.html.heex:426
 #, elixir-autogen, elixir-format
 msgid "Average score"
-msgstr "Durchschnittliche Punktzahl"  # "Průměrné skóre"
+msgstr "Průměrné skóre"
 
 #: lib/claper_web/live/event_live/quiz_component.ex:60
 #, elixir-autogen, elixir-format
@@ -1652,112 +1652,112 @@ msgstr "Aktuální kvíz"
 #: lib/claper_web/live/event_live/manager_settings_component.ex:485
 #, elixir-autogen, elixir-format
 msgid "Deny anonymous messages"
-msgstr "Anonyme Nachrichten verweigern"  # "Zakázat anonymní zprávy"
+msgstr "Zakázat anonymní zprávy"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:427
 #, elixir-autogen, elixir-format
 msgid "Disable messages"
-msgstr "Nachrichten deaktivieren"  # "Zprávy deaktivovat"
+msgstr "Zprávy deaktivovat"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:536
 #, elixir-autogen, elixir-format
 msgid "Disable reactions"
-msgstr "Reaktionen deaktivieren"  # "Reakce deaktivovat"
+msgstr "Reakce deaktivovat"
 
 #: lib/claper_web/live/event_live/manage.html.heex:369
 #, elixir-autogen, elixir-format
 msgid "Edit quiz"
-msgstr "Quiz bearbeiten"  # "Upravit kvíz"
+msgstr "Upravit kvíz"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:258
 #, elixir-autogen, elixir-format
 msgid "Hide instructions to join"
-msgstr "Beitrittsanweisungen ausblenden"  # "Skrýt pokyny k připojení"
+msgstr "Skrýt pokyny k připojení"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:305
 #, elixir-autogen, elixir-format
 msgid "Hide messages"
-msgstr "Nachrichten ausblenden"  # "Skrýt zprávy"
+msgstr "Skrýt zprávy"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:62
 #: lib/claper_web/live/event_live/manager_settings_component.ex:112
 #, elixir-autogen, elixir-format
 msgid "Hide results on presentation"
-msgstr "Ergebnisse in der Präsentation ausblenden"  # "Skrýt výsledky v prezentaci"
+msgstr "Skrýt výsledky v prezentaci"
 
 #: lib/claper_web/live/event_live/event_form_component.html.heex:36
 #: lib/claper_web/live/event_live/index.html.heex:28
 #: lib/claper_web/live/event_live/manage.html.heex:35
 #, elixir-autogen, elixir-format
 msgid "How it works ?"
-msgstr "Wie funktioniert es?"  # Could be "Jak to funguje?"
+msgstr "Jak to funguje?"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:22
 #, elixir-autogen, elixir-format
 msgid "Interaction"
-msgstr "Interaktion"  # Could be "Interakce"
+msgstr "Interakce"
 
 #: lib/claper_web/live/event_live/manage.html.heex:368
 #, elixir-autogen, elixir-format
 msgid "New quiz"
-msgstr "Neues Quiz"  # "Nový kvíz"
+msgstr "Nový kvíz"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:217
 #, elixir-autogen, elixir-format
 msgid "Presentation"
-msgstr "Präsentation"  # "Prezentace"
+msgstr "Prezentace"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:168
 #, elixir-autogen, elixir-format
 msgid "Previous"
-msgstr "Vorherige"  # "Předchozí"
+msgstr "Předchozí"
 
 #: lib/claper_web/live/event_live/manage.html.heex:292
 #: lib/claper_web/live/event_live/manage.html.heex:920
 #, elixir-autogen, elixir-format
 msgid "Quiz"
-msgstr "Quiz"  # "Kvíz"
+msgstr "Kvíz"
 
 #: lib/claper_web/live/quiz_live/quiz_component.html.heex:158
 #, elixir-autogen, elixir-format
 msgid "Remove question"
-msgstr "Frage entfernen"  # "Odstranit otázku"
+msgstr "Odstranit otázku"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:144
 #, elixir-autogen, elixir-format
 msgid "Review questions"
-msgstr "Überprüfen Sie die Fragen"  # "Zkontrolujte otázky"
+msgstr "Zkontrolujte otázky"
 
 #: lib/claper_web/live/event_live/quiz_component.ex:41
 #, elixir-autogen, elixir-format
 msgid "See current quiz"
-msgstr "Aktuelles Quiz anzeigen"
+msgstr "Zobrazit aktuální kvíz"
 
 #: lib/claper_web/live/event_live/manage.html.heex:388
 #, elixir-autogen, elixir-format
 msgid "Select presentation"
-msgstr "Präsentation auswählen"  # "Vybrat prezentaci"
+msgstr "Vybrat prezentaci"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:361
 #, elixir-autogen, elixir-format
 msgid "Show all messages"
-msgstr "Alle Nachrichten anzeigen"  # "Zobrazit všechny zprávy"
+msgstr "Zobrazit všechny zprávy"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:255
 #, elixir-autogen, elixir-format
 msgid "Show instructions to join"
-msgstr "Beitrittsanweisungen anzeigen"  # "Zobrazit pokyny k připojení"
+msgstr "Zobrazit pokyny k připojení"
 
 #: lib/claper_web/live/event_live/quiz_component.ex:121
 #, elixir-autogen, elixir-format
 msgid "Show results"
-msgstr "Ergebnisse anzeigen"  # "Zobrazit výsledky"
+msgstr "Zobrazit výsledky"
 
 #: lib/claper_web/live/event_live/manager_settings_component.ex:65
 #: lib/claper_web/live/event_live/manager_settings_component.ex:115
 #, elixir-autogen, elixir-format
 msgid "Show results on presentation"
-msgstr "Ergebnisse in der Präsentation anzeigen"  # "Zobrazit výsledky v prezentaci"
+msgstr "Zobrazit výsledky v prezentaci"
 
 #: lib/claper_web/live/quiz_live/quiz_component.html.heex:206
 #, elixir-autogen, elixir-format
@@ -1835,7 +1835,7 @@ msgstr "Kvízy"
 #: lib/claper_web/live/stat_live/index.ex:62
 #, elixir-autogen, elixir-format
 msgid "Report"
-msgstr "Bericht"  # Could be "Zpráva" or "Přehled"
+msgstr "Zpráva"
 
 #: lib/claper_web/live/stat_live/index.html.heex:70
 #, elixir-autogen, elixir-format

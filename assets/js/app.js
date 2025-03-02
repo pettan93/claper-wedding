@@ -25,7 +25,7 @@ import Split from "split-grid";
 import { TourGuideClient } from "@sjmc11/tourguidejs/src/Tour";
 window.moment = moment;
 
-const supportedLocales = ["en", "fr", "de", "es", "nl", "it"];
+const supportedLocales = ["en", "fr", "cs", "de", "es", "nl", "it"];
 
 var locale =
   document.querySelector("html").getAttribute("lang") ||

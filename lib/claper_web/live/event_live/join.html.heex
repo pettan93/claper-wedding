@@ -29,9 +29,6 @@
   </div>
 
   <div class="px-5 lg:w-1/3 lg:mx-auto">
-    <div class="mt-10 ">
-      <img src="/images/logo.svg" class="h-12 mx-auto mb-16" />
-    </div>
 
     <%= form_for :event, ~p"/join", ["phx-submit": "join", "phx-hook": "JoinEvent", id: "form"], fn f -> %>
       <div class="relative">
