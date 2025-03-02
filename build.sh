@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # exit on error
-set -o errexit
+#set -o errexit
 
 # Initial setup
 mix deps.get --only prod
@@ -13,4 +13,4 @@ mix assets.deploy
 MIX_ENV=prod mix release --overwrite
 
 # for auto DB migration upon deploy
-MIX_ENV=prod mix ecto.migrate 
+MIX_ENV=prod mix ecto.migrate

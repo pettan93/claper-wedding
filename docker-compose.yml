@@ -23,15 +23,18 @@ services:
     networks:
       - claper-net
   app:
-    image: ghcr.io/claperco/claper:latest # or build: .
+#    image: ghcr.io/claperco/claper:latest # or build: .
+    build: .
+    image: ghcr.io/pettan93/claper-kunstat:1
     ports:
       - 4000:4000
+      - 80:4000
     volumes:
       - "claper-uploads:/app/uploads"
     healthcheck:
       test: curl --fail http://localhost:4000 || exit 1
       retries: 3
-      start_period: 20s
+      start_period: 3s
       timeout: 5s
     env_file: .env
     depends_on:
