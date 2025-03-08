@@ -5,7 +5,7 @@ defmodule ClaperWeb.EventLive.PostComponent do
     ~H"""
     <div id={@id}>
       <%= if @post.attendee_identifier == @attendee_identifier || (not is_nil(@current_user) && @post.user_id == @current_user.id) do %>
-        <div style="background-color: #fff3d3;" class="px-4 pt-3 pb-8 rounded-b-lg rounded-tl-lg text-white relative z-0 break-word">
+        <div style="background-color: #fff3d3;" class="px-4 pt-3 pb-8 rounded-b-lg rounded-tl-lg relative z-0 break-word">
           <button
             phx-click={
               JS.toggle(
@@ -19,13 +19,13 @@ defmodule ClaperWeb.EventLive.PostComponent do
             }
             class="float-right mr-1"
           >
-            <img src="/images/icons/ellipsis-horizontal-white.svg" class="h-5" />
+            <img src="/images/icons/ellipsis-horizontal.svg" class="h-5" />
           </button>
 
           <%= if @post.name || leader?(@post, @event, @leaders) || pinned?(@post) do %>
             <div class="inline-flex items-center">
               <%= if @post.name do %>
-                <p class="text-white text-xs font-semibold mb-2 mr-2"><%= @post.name %></p>
+                <p class="text-xs font-semibold mb-2 mr-2"><%= @post.name %></p>
               <% end %>
               <%= if leader?(@post, @event, @leaders) do %>
                 <div class="inline-flex items-center space-x-1 justify-center px-3 py-0.5 rounded-full text-xs font-medium bg-supporting-yellow-100 text-supporting-yellow-800 mb-2">
@@ -82,19 +82,19 @@ defmodule ClaperWeb.EventLive.PostComponent do
             <%= if @post.like_count > 0 do %>
               <div class="flex px-1 items-center">
                 <img src="/images/icons/thumb.svg" class="h-4" />
-                <span class="ml-1 text-white"><%= @post.like_count %></span>
+                <span class="ml-1"><%= @post.like_count %></span>
               </div>
             <% end %>
             <%= if @post.love_count > 0 do %>
               <div class="flex px-1 items-center">
                 <img src="/images/icons/heart.svg" class="h-4" />
-                <span class="ml-1 text-white"><%= @post.love_count %></span>
+                <span class="ml-1"><%= @post.love_count %></span>
               </div>
             <% end %>
             <%= if @post.lol_count > 0 do %>
               <div class="flex px-1 items-center">
                 <img src="/images/icons/laugh.svg" class="h-4" />
-                <span class="ml-1 text-white"><%= @post.lol_count %></span>
+                <span class="ml-1"><%= @post.lol_count %></span>
               </div>
             <% end %>
           </div>
