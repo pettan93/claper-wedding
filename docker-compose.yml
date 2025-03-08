@@ -25,7 +25,7 @@ services:
   app:
 #    image: ghcr.io/claperco/claper:latest # or build: .
     build: .
-    image: ghcr.io/pettan93/claper-kunstat:3
+    image: ghcr.io/pettan93/claper-kunstat:4
     ports:
       - 4000:4000
       - 80:4000
